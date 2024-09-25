@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap" rel="stylesheet">
+    <title>Plic de Ceai</title>
+</head>
+<body>
+    <header id="myHeader">
+        <div class="navbar">
+            <div class="navItem">
+                <a href="#"><img class="logoIcon" src="img/Logo.png" width="130" height="100" onmouseover="hover(this)" onmouseout="hoverOut(this)"></a>
+            </div>
+            <div class="navItem">
+                <ul class="links">
+                    <li><a class="menuItem" href="shopping-index.html">Shopping</a></li>
+                    <li><a class="menuItem" href="noutati-index.html">Noutati</a></li>
+                    <li><a class="menuItem" href="servicii-index.html">Servicii</a></li>
+                </ul>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                        <input type="text" placeholder="Search..." class="searchInput">
+                        <a href="shopping-index.html"><img id="search-icon" src="img/search.png"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="mainSection">
+        <div class="sectionText">
+            <h1 class="titlu">Bine ai venit la</h1>
+            <h1 class="titlu" id="titluBrand">Plic de Ceai!</h1>
+            <h2 id="descriere">Bucura-te de un moment de relaxare cu ceasca ta preferata de ceai. <br> Descopera selectia noastra de ceaiuri de inalta calitate, <br> accesorii si multe altele la ceainaria noastra online. <br><br> Comanda acum si savureaza aroma si gustul inconfundabil al ceaiului.</h2>
+        </div>
+        <div class="sectionButtons">
+            <ul class="buttons">
+                <li><a class="sectionItem" href="shopping-index.html" id="comanda">Comanda online</a></li>
+                <li><a class="sectionItem" href="noutati-index.html">Stiri despre ceai</a></li>
+            </ul>
+        </div>
+        <div class="videoContainer">
+            <video class="articleVideo" autoplay loop muted>
+                <source src="img/video-1.mp4" type="video/mp4">
+                Browser-ul nu suporta astfel de video.
+            </video>
+        </div>
+    </section>
+
+    <div class="gallery-section">
+        <div class="gallery">
+            <div class="content">
+            <h2>Ce este ceaiul?</h2>
+            <p>Ceaiul nu este doar o bautura, ci o arta si o modalitate de a trai o viata echilibrata.
+                In cultura japoneza, ceremonia ceaiului este mai mult decat un simplu obicei - este o experienta spirituala
+                si estetica profunda. La ceainaria noastra online, iti aducem experienta autentica a ceaiului japonez,
+                cu selectii de ceai verde, matcha si multe altele. Descopera astazi intelepciunea si armonia ceaiului japonez
+                si ofera-ti o calatorie gustativa si spirituala unica.</p>
+            </div>
+            <div class="image">
+            <img src="img/image-3.png" alt="Image">
+            </div>
+        </div>
+
+        <div class="decoration">
+            <img src="img/decoration-1.jpg" alt="">
+        </div>
+      </div>
+
+      <div>
+        <h2 class="produse-text">PRODUSE</h2>
+      </div>
+
+      <div id="container">
+        <input type="radio" id="pic1" name="ctrl" checked/>
+        <label for="pic1">
+          <img src="img/product-image-1.2.png" alt="" />
+        </label>
+        <img src="img/product-image-1.1.png" alt="" />
+        
+        <input type="radio" name="ctrl"  id="pic2"/>
+        <label for="pic2">
+          <img src="img/product-image-2.2.png" alt="" />
+        </label>
+        <img src="img/product-image-2.1.png" alt="" />
+        
+        <input type="radio" name="ctrl"  id="pic3"/>
+        <label for="pic3">
+          <img src="img/product-image-3.2.png" alt="" />
+        </label>
+        <img src="img/product-image-3.1.png" alt="" />
+      </div>
+
+      <div class="btn-wrapper">
+        <a href="shopping-index.html"><button class="btn-produse">VEZI TOATE PRODUSELE</button></a>
+      </div>
+
+      <div class="data-section">
+        <div class="end-section">
+        <img src="img/Logo.png" width="150" height="auto" alt="">
+      </div>
+
+        <div class="end-section">
+          <h3>Linkuri</h3>
+          <ul class="end-ul">
+            <li class="end-li"><a href="#">Acasa</a></li>
+            <li class="end-li"><a href="shopping-index.html">Shopping</a></li>
+            <li class="end-li"><a href="noutati-index.html">Noutati</a></li>
+            <li class="end-li"><a href="servicii-index.html">Servicii</a></li>
+          </ul>
+        </div>
+        
+        <div class="end-section" id="contact-sct">
+          <h3>Contact</h3>
+          <ul class="end-ul">
+            <li class="end-li">Hello@plicdeceai.ro</li>
+          </ul>
+        </div>
+        
+        <div class="end-section" id="media-sct">
+          <h3>Media</h3>
+          <ul class="end-ul">
+            <li class="end-li"><a href="https://www.instagram.com/ionut_ciob/" target="_blank" id="insta-user"><img src="img/instagram.png" width="20px" height="20px" id="instgram"><span>ionut_ciob</span></a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <footer class="footer">
+        <p class="copyright">©2023 Plic de Ceai</p>
+        <p class="credits">Designed and developed by <u>Ciobotaru Ionut Fabian</u></p>
+      </footer>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
