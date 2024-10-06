@@ -10,7 +10,7 @@ Plicdeceai was developed on a Full HD display (1920x1080). <br />
 ---
 
 ##### Home Page
-[![Home Page](https://i.imgur.com/wfLE4vE.mp4)](https://fabian-ci.github.io/E-commerce-project/index.html)
+[![](https://i.imgur.com/wfLE4vE.mp4)](https://fabian-ci.github.io/E-commerce-project/index.html)
 
 ##### Shopping Page
 [![Shopping Page](https://imgur.com/dv9wRwj)](https://fabian-ci.github.io/E-commerce-project/shopping-index.html)
